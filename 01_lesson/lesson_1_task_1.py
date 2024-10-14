@@ -1,1 +1,2 @@
-print("домашка")
+my_name = "Севара"
+print(my_name)
