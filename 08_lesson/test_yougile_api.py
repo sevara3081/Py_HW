@@ -91,11 +91,3 @@ def test_update_project_without_title():
     print("Обновление проекта без title возвращает ошибку 400")
 
 
-if __name__ == "__main__":
-    # Вызов тестов
-    test_create_project()
-    test_get_all_projects()
-    test_update_project()
-    test_create_project_without_title()
-    test_create_project_without_description()
-    test_update_project_without_title()
